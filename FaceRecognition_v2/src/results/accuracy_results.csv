@@ -1,0 +1,106 @@
+Unknown Person,Known Person,Match,Accuracy
+.jpg,Bruno Dias,True,100.0
+.jpg,Camila,False,0.0
+.jpg,Dani,False,0.0
+.jpg,Elon Musk,False,0.0
+.jpg,Nicola Tesla,False,0.0
+12,Bruno Dias,True,100.0
+12,Camila,False,0.0
+12,Dani,False,0.0
+12,Elon Musk,False,0.0
+12,Nicola Tesla,False,0.0
+afad,Bruno Dias,True,100.0
+afad,Camila,False,0.0
+afad,Dani,False,0.0
+afad,Elon Musk,False,0.0
+afad,Nicola Tesla,False,0.0
+baixados,Bruno Dias,False,0.0
+baixados,Camila,False,0.0
+baixados,Dani,False,0.0
+baixados,Elon Musk,True,100.0
+baixados,Nicola Tesla,False,0.0
+Imagem do WhatsApp de 2023-03-17 à(s) 12.52.19',Bruno Dias,False,0.0
+Imagem do WhatsApp de 2023-03-17 à(s) 12.52.19',Camila,True,100.0
+Imagem do WhatsApp de 2023-03-17 à(s) 12.52.19',Dani,False,0.0
+Imagem do WhatsApp de 2023-03-17 à(s) 12.52.19',Elon Musk,False,0.0
+Imagem do WhatsApp de 2023-03-17 à(s) 12.52.19',Nicola Tesla,False,0.0
+Imagem do WhatsApp de 2023-03-17 à(s) 12.52.19,Bruno Dias,False,0.0
+Imagem do WhatsApp de 2023-03-17 à(s) 12.52.19,Camila,True,100.0
+Imagem do WhatsApp de 2023-03-17 à(s) 12.52.19,Dani,False,0.0
+Imagem do WhatsApp de 2023-03-17 à(s) 12.52.19,Elon Musk,False,0.0
+Imagem do WhatsApp de 2023-03-17 à(s) 12.52.19,Nicola Tesla,False,0.0
+IMG-20230317-WA0035,Bruno Dias,False,0.0
+IMG-20230317-WA0035,Camila,False,0.0
+IMG-20230317-WA0035,Dani,True,100.0
+IMG-20230317-WA0035,Elon Musk,False,0.0
+IMG-20230317-WA0035,Nicola Tesla,False,0.0
+IMG-20230317-WA0040,Bruno Dias,False,0.0
+IMG-20230317-WA0040,Camila,False,0.0
+IMG-20230317-WA0040,Dani,True,100.0
+IMG-20230317-WA0040,Elon Musk,False,0.0
+IMG-20230317-WA0040,Nicola Tesla,False,0.0
+IMG-20230317-WA0042,Bruno Dias,False,0.0
+IMG-20230317-WA0042,Camila,False,0.0
+IMG-20230317-WA0042,Dani,True,100.0
+IMG-20230317-WA0042,Elon Musk,False,0.0
+IMG-20230317-WA0042,Nicola Tesla,False,0.0
+IMG-20230317-WA0043,Bruno Dias,False,0.0
+IMG-20230317-WA0043,Camila,False,0.0
+IMG-20230317-WA0043,Dani,True,100.0
+IMG-20230317-WA0043,Elon Musk,False,0.0
+IMG-20230317-WA0043,Nicola Tesla,False,0.0
+IMG-20230317-WA0044,Bruno Dias,False,0.0
+IMG-20230317-WA0044,Camila,False,0.0
+IMG-20230317-WA0044,Dani,True,100.0
+IMG-20230317-WA0044,Elon Musk,False,0.0
+IMG-20230317-WA0044,Nicola Tesla,False,0.0
+IMG-20230317-WA0045,Bruno Dias,False,0.0
+IMG-20230317-WA0045,Camila,False,0.0
+IMG-20230317-WA0045,Dani,True,100.0
+IMG-20230317-WA0045,Elon Musk,False,0.0
+IMG-20230317-WA0045,Nicola Tesla,False,0.0
+IMG-20230317-WA0046,Bruno Dias,False,0.0
+IMG-20230317-WA0046,Camila,False,0.0
+IMG-20230317-WA0046,Dani,True,100.0
+IMG-20230317-WA0046,Elon Musk,False,0.0
+IMG-20230317-WA0046,Nicola Tesla,False,0.0
+IMG-20230317-WA0047,Bruno Dias,False,0.0
+IMG-20230317-WA0047,Camila,False,0.0
+IMG-20230317-WA0047,Dani,True,100.0
+IMG-20230317-WA0047,Elon Musk,False,0.0
+IMG-20230317-WA0047,Nicola Tesla,False,0.0
+IMG-20230317-WA0048,Bruno Dias,False,0.0
+IMG-20230317-WA0048,Camila,False,0.0
+IMG-20230317-WA0048,Dani,True,100.0
+IMG-20230317-WA0048,Elon Musk,False,0.0
+IMG-20230317-WA0048,Nicola Tesla,False,0.0
+IMG-20230317-WA0049,Bruno Dias,False,0.0
+IMG-20230317-WA0049,Camila,False,0.0
+IMG-20230317-WA0049,Dani,True,100.0
+IMG-20230317-WA0049,Elon Musk,False,0.0
+IMG-20230317-WA0049,Nicola Tesla,False,0.0
+IMG-20230317-WA0050,Bruno Dias,False,0.0
+IMG-20230317-WA0050,Camila,False,0.0
+IMG-20230317-WA0050,Dani,True,100.0
+IMG-20230317-WA0050,Elon Musk,False,0.0
+IMG-20230317-WA0050,Nicola Tesla,False,0.0
+IMG-20230317-WA0051,Bruno Dias,False,0.0
+IMG-20230317-WA0051,Camila,False,0.0
+IMG-20230317-WA0051,Dani,True,100.0
+IMG-20230317-WA0051,Elon Musk,False,0.0
+IMG-20230317-WA0051,Nicola Tesla,False,0.0
+IMG-20230317-WA0052,Bruno Dias,False,0.0
+IMG-20230317-WA0052,Camila,False,0.0
+IMG-20230317-WA0052,Dani,True,100.0
+IMG-20230317-WA0052,Elon Musk,False,0.0
+IMG-20230317-WA0052,Nicola Tesla,False,0.0
+OIP,Bruno Dias,False,0.0
+OIP,Camila,False,0.0
+OIP,Dani,False,0.0
+OIP,Elon Musk,True,100.0
+OIP,Nicola Tesla,False,0.0
+qw,Bruno Dias,False,0.0
+qw,Camila,False,0.0
+qw,Dani,False,0.0
+qw,Elon Musk,True,100.0
+qw,Nicola Tesla,False,0.0

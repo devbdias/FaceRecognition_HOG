@@ -1,0 +1,11 @@
+cmake
+dlib
+face_recognition
+numpy
+opencv-python
+Pillow
+pandas
+tensorflow
+
+git config --global user.email "dev.brunodias@gmail.com"
+git config --global user.name "DevBDias"
