@@ -2,8 +2,8 @@ import csv
 import face_recognition
 import os
 
-known_faces_dir = r'C:\Users\bruno\Downloads\FaceRecognition_v2\FaceRecognition_v2\src\assets\conhecidos'
-unknown_faces_dir = r'C:\Users\bruno\Downloads\FaceRecognition_v2\FaceRecognition_v2\src\assets\desconhecidos'
+known_faces_dir = r'C:\Users\bruno\Downloads\FaceRecognition_v2\src\assets\conhecidos'
+unknown_faces_dir = r'C:\Users\bruno\Downloads\FaceRecognition_v2\src\assets\desconhecidos'
 
 # Load known faces
 known_faces = []

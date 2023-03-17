@@ -15,7 +15,7 @@ video_capture.set(cv2.CAP_PROP_FRAME_WIDTH, 320)
 video_capture.set(cv2.CAP_PROP_FRAME_HEIGHT, 240)
 
 # Carrega as imagens de treinamento e seus respectivos nomes
-known_faces_dir = "C:\Users\bruno\Downloads\FaceRecognition_v2\FaceRecognition_v2\src\assets\conhecidos"
+known_faces_dir = "C:\Users\bruno\Downloads\FaceRecognition_v2\src\assets\conhecidos"
 known_faces = []
 known_names = []
 for filename in os.listdir(known_faces_dir):

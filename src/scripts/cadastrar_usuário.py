@@ -31,7 +31,7 @@ class Application:
         # Captura a imagem da câmera
         ret, frame = self.capture.read()
         nome = self.nome_entry.get()
-        caminho_pasta = r'C:\Users\bruno\Downloads\FaceRecognition_v2\FaceRecognition_v2\src\assets\conhecidos'
+        caminho_pasta = r'C:\Users\bruno\Downloads\FaceRecognition_v2\src\assets\conhecidos'
         
         # Salva a imagem na pasta especificada
         caminho_arquivo = os.path.join(caminho_pasta, nome + ".jpg")
