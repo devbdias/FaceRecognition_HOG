@@ -42,24 +42,29 @@ while True:
         if True in matches:
             first_match_index = matches.index(True)
             name = known_names[first_match_index]
-
-        # Desenha o nome e a caixa ao redor do rosto
-        cv2.rectangle(frame, (left, top), (right, bottom), (0, 0, 255), 2)
-        
-        # Adiciona o nome abaixo do quadro
-        cv2.putText(frame, name, (left + 6, bottom + 25), cv2.FONT_HERSHEY_DUPLEX, 0.5, (0, 0, 255), 1)
         
         # Calcula e exibe a acurácia em tempo real
         accuracy = (matches.count(True) / len(matches)) * (matches.count(True) * len(matches)) * 100
+
+        if accuracy > 0:
+            color = (0, 255, 0)
+        else:
+            color = (0, 0, 255)
+
+        # Desenha o nome e a caixa ao redor do rosto
+        cv2.rectangle(frame, (left, top), (right, bottom), color, 2)
+        
+        # Adiciona o nome abaixo do quadro
+        cv2.putText(frame, name, (left + 6, bottom + 25), cv2.FONT_HERSHEY_DUPLEX, 0.5, color, 1)
         
         # Adiciona a acurácia abaixo do nome
-        cv2.putText(frame, f"Accuracy: {accuracy:.2f}%", (left + 6, bottom + 45), cv2.FONT_HERSHEY_DUPLEX, 0.4, (0, 0, 255), 1)
+        cv2.putText(frame, f"Accuracy: {accuracy:.2f}%", (left + 6, bottom + 45), cv2.FONT_HERSHEY_DUPLEX, 0.4, color, 1)
 
     # Redimensiona o frame para a largura da janela
     height, width, _ = frame.shape
-    window_width = 1080
+    window_width = 720
     scale = window_width / width
-    window_height = int(scale * height)
+    window_height = 600#int(scale * height)
     frame = cv2.resize(frame, (window_width, window_height))
 
     # Exibe o resultado
