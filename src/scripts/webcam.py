@@ -7,7 +7,7 @@ import os
 video_capture = cv2.VideoCapture(0)
 
 # Caminho da pasta com as imagens conhecidas
-known_faces_dir = r'C:\Users\bruno\Downloads\FaceRecognition_v2\src\assets\conhecidos'
+known_faces_dir = r'C:\Users\bruno\OneDrive\Área de Trabalho\FaceRecognition_v2_HOG\src\assets\conhecidos'
 
 # Lista de rostos conhecidos e seus nomes
 known_faces = []

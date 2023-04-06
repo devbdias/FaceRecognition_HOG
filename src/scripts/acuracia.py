@@ -2,8 +2,12 @@ import csv
 import face_recognition
 import os
 
-known_faces_dir = r'C:\Users\bruno\Downloads\FaceRecognition_v2\src\assets\conhecidos'
-unknown_faces_dir = r'C:\Users\bruno\Downloads\FaceRecognition_v2\src\assets\desconhecidos'
+import datetime
+
+inicio = datetime.datetime.now()
+
+known_faces_dir = r'C:\Users\bruno\OneDrive\Área de Trabalho\FaceRecognition_v2_HOG\src\assets\conhecidos'
+unknown_faces_dir = r'C:\Users\bruno\OneDrive\Área de Trabalho\FaceRecognition_v2_HOG\src\assets\desconhecidos'
 
 # Load known faces
 known_faces = []
@@ -38,9 +42,13 @@ with open(r'src\results\accuracy_results.csv', mode='w', newline='') as file:
             accuracy = results.count(True) / len(results) * 100
             writer.writerow([unknown_names[i], known_names[j], match, accuracy])
 
-            #print(f"Comparing {unknown_names[i]} with {known_names[j]}:")
-            #if match:
-            #    print(f"  {known_names[j]}: match")
-            #else:
-            #    print(f"  {known_names[j]}: no match")
-            #print(f"  Accuracy: {accuracy:.2f}%")
+            print(f"Comparing {unknown_names[i]} with {known_names[j]}:")
+            if match:
+                print(f"  {known_names[j]}: match")
+            else:
+                print(f"  {known_names[j]}: no match")
+            print(f"  Accuracy: {accuracy:.2f}%")
+
+fim = datetime.datetime.now()
+
+print(f'Tempo de execção: {fim - inicio}')
